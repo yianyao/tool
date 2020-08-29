@@ -3,17 +3,15 @@
     "description": "phpppppp",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "yianyao",
-            "email": "yianyao@live.cn"
-        }
-    ],
+    "authors": [{
+        "name": "yianyao",
+        "email": "yianyao@live.cn"
+    }],
     "minimum-stability": "dev",
     "require": {},
-	"autoload" : {
-		"psr-4" : {
-			"tool//" : "src"
-		}
-	}
+    "autoload": {
+        "psr-4": {
+            "tool\\": "src"
+        }
+    }
 }
