@@ -1,0 +1,19 @@
+{
+    "name": "yianyao/tool",
+    "description": "phpppppp",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yianyao",
+            "email": "yianyao@live.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload" : {
+		"psr-4" : {
+			"tool//" : "src"
+		}
+	}
+}
